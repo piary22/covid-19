@@ -207,7 +207,7 @@ map_data = map_data.sort_values("new").drop('new', axis=1)
 #############################################################################
 # mapbox_access_token keys, not all mapbox function require token to function. 
 #############################################################################
-mapbox_access_token = 'insert your token here'
+mapbox_access_token = 'pk.eyJ1IjoicGlhcnkyMiIsImEiOiJja2VmNXR0aDcwaWtyMnNzNW8yOGhhMHM5In0.WRLguvlqLI3o09ZPWVvGgQ'
 
 ###########################
 # functions to create map
@@ -1176,4 +1176,4 @@ def close_modal(n):
     return 0
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host="0.0.0.0", port="8181",debug=True)
