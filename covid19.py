@@ -207,7 +207,7 @@ map_data = map_data.sort_values("new").drop('new', axis=1)
 #############################################################################
 # mapbox_access_token keys, not all mapbox function require token to function. 
 #############################################################################
-mapbox_access_token = 'pk.eyJ1IjoicGlhcnkyMiIsImEiOiJja2VmNXR0aDcwaWtyMnNzNW8yOGhhMHM5In0.WRLguvlqLI3o09ZPWVvGgQ'
+mapbox_access_token = 'input here'
 
 ###########################
 # functions to create map
